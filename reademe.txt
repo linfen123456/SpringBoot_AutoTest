@@ -1,0 +1,1 @@
+使用Jenkins+Docker自动构建项目
