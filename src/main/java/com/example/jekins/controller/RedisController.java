@@ -37,7 +37,7 @@ public class RedisController {
 //            return users;
 //        }
         List<User> users = userRepository.findAll();
-    //    System.out.println(users);
+        System.out.println(users.toString());
         // 具体使用
      //   redisTemplate.opsForList().leftPush("user:list", JSON.toJSONString(users));
      //   stringRedisTemplate.opsForValue().set("user:name", "张三");
